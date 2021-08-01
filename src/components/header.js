@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, NavbarToggler, Collapse, Nav, NavItem } from 'reactstrap';
-import { NavLink } from 'react-router-dom';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 
 class Header extends Component {
     constructor(props) {
@@ -27,19 +27,19 @@ class Header extends Component {
                 <Nav navbar>
 
                     <NavItem>
-                    <NavLink className='nav-link' to='/game'>
+                    <NavLink className='nav-link' smooth to='/game'>
                         Game
                     </NavLink>
                     </NavItem>
 
                     <NavItem>
-                    <NavLink className='nav-link' to='/about'>
+                    <NavLink className='nav-link' smooth to='/about'>
                         About
                     </NavLink>
                     </NavItem>
 
                     <NavItem>
-                    <NavLink className='nav-link' to='/contact'>
+                    <NavLink className='nav-link' smooth to='/contact'>
                         Contact
                     </NavLink>
                     </NavItem>

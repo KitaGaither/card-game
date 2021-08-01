@@ -4,10 +4,10 @@ import Cards from '../shared/cards';
 class Game extends Component {
     render() {
         return(
-            <React.Fragment>
-                <h1>Game Page!</h1>
+            <div id="game">
+                <h1>Matching Game</h1>
                 <Cards />
-            </React.Fragment>
+            </div>
             
         );
     }
