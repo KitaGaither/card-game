@@ -27,19 +27,19 @@ class Header extends Component {
                 <Nav navbar>
 
                     <NavItem>
-                    <NavLink className='nav-link' smooth to='/#game'>
+                    <NavLink className='nav-link' smooth to='game'>
                         Game
                     </NavLink>
                     </NavItem>
 
                     <NavItem>
-                    <NavLink className='nav-link' smooth to='/#about'>
+                    <NavLink className='nav-link' smooth to='about'>
                         About
                     </NavLink>
                     </NavItem>
 
                     <NavItem>
-                    <NavLink className='nav-link' smooth to='/#contact'>
+                    <NavLink className='nav-link' smooth to='contact'>
                         Contact
                     </NavLink>
                     </NavItem>
