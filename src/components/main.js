@@ -16,10 +16,10 @@ class Main extends Component {
             <div>
                 <Header/>
                 <Switch>
-                    <Route path='/game' component={GamePage} />
-                    <Route exact path='/about' component={About} />
-                    <Route exact path='/contact' component={Contact} />
-                    <Redirect to='/game' />
+                    <Route path='/#game' component={GamePage} />
+                    <Route exact path='/#about' component={About} />
+                    <Route exact path='/#contact' component={Contact} />
+                    <Redirect to='/#game' />
                 </Switch>
             </div>
         );
